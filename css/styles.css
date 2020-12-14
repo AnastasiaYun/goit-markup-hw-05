@@ -86,7 +86,8 @@ p {
   background-color: var(--accent-color);
   transition: width 250ms var(--timing-function);
 }
-.site-nav:hover::after {
+.site-nav:hover::after,
+.site-nav:focus::after {
   width: 100%;
 }
 
@@ -128,10 +129,12 @@ p {
   display: flex;
   align-items: center;
 }
-.link-icons-header:hover .icon-contacts-header {
+.link-icons-header:hover .icon-contacts-header,
+.link-icons-header:focus .icon-contacts-header {
   fill: var(--accent-color);
 }
-.link-icons-header:hover {
+.link-icons-header:hover,
+.link-icons-header:focus {
   color: var(--accent-color);
 }
 .icon-contacts-header {
@@ -356,7 +359,8 @@ section {
 .decoration-no {
   text-decoration: none;
 }
-.link-social-icons:hover {
+.link-social-icons:hover,
+.link-social-icons:focus {
   background-color: var(--accent-color);
   fill: var(--white-color);
 }
@@ -400,7 +404,7 @@ section {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-button:hover .clients-icons,
-.clients-button:focus {
+.clients-button:focus .clients-icons {
   fill: var(--accent-color);
 }
 .clients-button:hover,
@@ -434,7 +438,8 @@ section {
   opacity: 60%;
   padding-bottom: 10px;
 }
-.footer-address-mail-tel a:hover {
+.footer-address-mail-tel a:hover,
+.footer-address-mail-tel a:focus {
   color: var(--accent-color);
   opacity: 100%;
 }
@@ -477,7 +482,8 @@ section {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-social-icons-footer:hover {
+.link-social-icons-footer:hover,
+.link-social-icons-footer:focus {
   background-color: var(--accent-color);
 }
 /* Портфолио */
@@ -503,7 +509,8 @@ section {
   /* transform: scale(0) rotate(0);
   transition: transform 1000ms var(--timing-function); */
 }
-.outline:hover .portfolio-img-title {
+.outline:hover .portfolio-img-title,
+.outline:focus .portfolio-img-title {
   transform: translateX(0%);
   /* transform: scale(1) rotate(360deg); */
 }
@@ -543,7 +550,8 @@ section {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.outline:hover {
+.outline:hover,
+.outline:focus {
   cursor: pointer;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
