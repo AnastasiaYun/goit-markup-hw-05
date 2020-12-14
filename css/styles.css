@@ -95,10 +95,6 @@ p {
   text-decoration: none;
   font-weight: 500;
   margin: 0;
-
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav .item + .item {
   margin-left: 40px;
@@ -113,6 +109,11 @@ p {
 }
 .site-nav.current {
   color: var(--accent-color);
+}
+.current-border {
+  border-bottom: solid 4px var(--accent-color);
+  padding-bottom: 26px;
+  width: 100%;
 }
 .header-mail-tel {
   align-items: center;
