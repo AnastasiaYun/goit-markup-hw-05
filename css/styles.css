@@ -114,9 +114,9 @@ p {
 .site-nav.current {
   color: var(--accent-color);
 }
-.current-border {
-  border-bottom: solid 4px var(--accent-color);
-  padding-bottom: 26px;
+.current {
+  border-bottom: solid 6px var(--accent-color);
+  padding-bottom: 23px;
   width: 100%;
 }
 .header-mail-tel {
