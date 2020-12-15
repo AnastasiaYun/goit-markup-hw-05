@@ -107,8 +107,8 @@ p {
   list-style: none;
   margin-left: 90px;
 }
-.site-nav :hover,
-.site-nav :focus {
+.site-nav:hover,
+.site-nav:focus {
   color: var(--accent-color);
 }
 .site-nav.current {
@@ -557,8 +557,12 @@ section {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.outline:hover,
-.outline:focus {
+.outline:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.portfolio-works-link:focus {
   cursor: pointer;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
