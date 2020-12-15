@@ -111,6 +111,9 @@ p {
 .site-nav a:focus {
   color: var(--accent-color);
 }
+.nav-border.current {
+  color: var(--accent-color);
+}
 .current {
   border-bottom: solid 6px var(--accent-color);
   padding-bottom: 23px;
