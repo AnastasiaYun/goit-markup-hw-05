@@ -201,11 +201,7 @@ p {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .btn {
-  padding: 0;
   border: none;
-  font: inherit;
-  color: inherit;
-  background-color: transparent;
 }
 .button-portfolio {
   display: inline-block;
@@ -516,10 +512,14 @@ section {
   /* transform: scale(0) rotate(0);
   transition: transform 1000ms var(--timing-function); */
 }
-.outline:hover .portfolio-img-title,
-.outline:focus .portfolio-img-title {
+.portfolio-works-link:hover .portfolio-img-title,
+.portfolio-works-link:focus .portfolio-img-title {
   transform: translateX(0%);
   /* transform: scale(1) rotate(360deg); */
+}
+.portfolio-works-link {
+  display: inherit;
+  text-decoration: none;
 }
 .portfolio-title-text {
   padding: 20px 24px;
