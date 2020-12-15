@@ -107,11 +107,8 @@ p {
   list-style: none;
   margin-left: 90px;
 }
-.site-nav:hover,
-.site-nav:focus {
-  color: var(--accent-color);
-}
-.site-nav.current {
+.site-nav a:hover,
+.site-nav a:focus {
   color: var(--accent-color);
 }
 .current {
@@ -545,13 +542,15 @@ section {
   height: 120px;
   background-color: var(--bacground-secondary);
 }
+.portfolio-works-wrapper {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
 .outline {
   border: 1px solid #ececec;
   margin-bottom: 30px;
   max-width: 370px;
-  position: relative;
-  display: grid;
-  overflow: hidden;
 
   transition-property: box-shadow;
   transition-duration: 250ms;
